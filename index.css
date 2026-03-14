@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:2vh 5vw;
+}
+
+.logo{
+    display:inline-block;
+    font-weight:bold;
+    font-size:20px;
+}
+
+.menu{
+    display:flex;
+    gap:20px;
+}
+
+.menu a{
+    margin-right:20px;
+    text-decoration:none;
+    color:#555;
+}
+
+.user{
+    background:#e6f2ff;
+    padding:8px 15px;
+    border-radius:10px;
+}
+
+/* Hamburger icon */
+
+.hamburger{
+    display:none;
+    font-size:24px;
+    background:none;
+    border:none;
+    cursor:pointer;
+}
+
+/* Hero Section */
+
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10vh 10vw;
+}
+
+/* left content */
+
+.left{
+    width:45%;
+}
+
+.left h1{
+    font-size:40px;
+    color:#4b5d67;
+}
+
+.left span{
+    color:#1e90ff;
+}
+
+.left p{
+    margin-top:15px;
+    color:#777;
+}
+
+.left button{
+    margin-top:25px;
+    padding:12px 25px;
+    border:none;
+    background:#1e90ff;
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
+    transition: transform 0.3s ease;
+}
+
+.left button:hover{
+    transform: scale(1.1) rotate(-5deg);
+}
+
+/* right image */
+
+.right{
+    width:45%;
+    margin-left:5%;
+}
+
+.right img{
+    width:100%;
+}
+
+/* Tablet View (≤ 900px) */
+
+@media (max-width:900px){
+
+.logo{
+    font-size:18px;
+}
+
+.menu a{
+    font-size:14px;
+}
+
+.user{
+    font-size:14px;
+}
+
+.left h1{
+    font-size:32px;
+}
+
+.right img{
+    width:90%;
+}
+
+}
+
+/* Mobile View (≤ 600px) */
+
+@media (max-width:600px){
+
+.menu{
+    display:none;
+}
+
+.hamburger{
+    display:block;
+}
+
+/* show menu when hamburger is focused */
+
+.hamburger:focus + .mobile-menu{
+    display:flex;
+}
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+}
+
+.left{
+    width:100%;
+}
+
+.right{
+    width:100%;
+    margin-top:30px;
+}
+
+.left h1{
+    font-size:28px;
+}
+
+.right img{
+    width:80%;
+}
+
+}
+
+/* Mobile slide menu */
+
+.mobile-menu{
+    position:absolute;
+    right:0;
+    top:0;
+    height:100vh;
+    width:60%;
+    background:black;
+    color:white;
+    display:none;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+
+.mobile-menu a{
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+}
