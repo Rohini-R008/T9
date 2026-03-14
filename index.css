@@ -76,6 +76,8 @@
     color:#777;
 }
 
+/* Using ease along with transition make the animation smooth*/
+
 .left button{
     margin-top:25px;
     padding:12px 25px;

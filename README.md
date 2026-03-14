@@ -1,29 +1,15 @@
-# Laundry Services – Hamburger Menu & Button Hover Effect
+# Laundry Services – Button Hover Effect
 
 ## Project Description
 
 This project is a responsive web page for a Laundry Services website.
 It includes a navigation bar, hero section, and responsive layout for desktop, tablet, and mobile screens.
-
-The project also implements a **mobile hamburger menu** and a **hover animation on the "Book a service today!" button**.
-
-## Features
-
-* Responsive navigation bar
-* Hamburger menu visible only in mobile view
-* Slide-out mobile menu from the right side
-* Hero section with text and image layout
-* Button hover animation (tilt + size increase)
-* Fully responsive for desktop, tablet, and mobile devices
-* Implemented using only HTML and CSS
+The project implements a **hover animation on the "Book a service today!" button**.
 
 ## Technologies Used
 
-* HTML5
-* CSS3
-* Flexbox
-* Media Queries
-* CSS Transform and Transition
+* HTML
+* CSS
 
 ## Files Included
 
@@ -37,12 +23,6 @@ The project also implements a **mobile hamburger menu** and a **hover animation 
 2. Open the folder in any code editor.
 3. Open `index.html` in a web browser.
 4. Resize the browser window or use developer tools to test mobile and tablet views.
-
-## Responsive Behavior
-
-* **Desktop:** Full navigation menu with hero section layout (text + image side by side).
-* **Tablet:** Reduced font sizes and image sizes for better layout.
-* **Mobile:** Navigation links are hidden and replaced with a hamburger menu icon. Clicking the icon opens the menu from the right side.
 
 ## Button Interaction
 
